@@ -244,7 +244,7 @@ button:last-of-type {
 
 
 
-/* XG Desktop Design */
+/* Large Design */
 
 @media (min-width: 992px) {
     
@@ -352,11 +352,122 @@ button:last-of-type {
 
 
 
+
+    
+/* XL */
+
+
+@media (min-width: 1200px) {
+    
+    
+    header {
+        display: flex; 
+        flex-direction: column;
+        height: 70vh;
+        background-color: var(--30color);
+    }
+    
+    .trianglemobile {
+        display: none;
+    }
+    
+    .mobileTitle {
+        display: none;
+    }
+    
+    .shapeDesktop {
+        width: 70vh;
+        height: 70vh;
+        
+        position: absolute;
+        
+    }
+    
+    .maraDesktop {
+        position: absolute;
+        right: 0px;
+        width: 70vh;
+    }
+    
+    h1 {
+        margin-top: 0px;
+        position: absolute;
+    
+        font-family: var(--title);
+        font-weight: var(--title-weight);
+        font-size: 5vw;
+        line-height: 6vw;
+        top: 200px;
+        left: 80px;
+    }
+    
+    
+    /* Word's white backgrounds */
+    
+    header span:first-of-type, span:last-of-type {
+        background-image: url(../media/orange-background.svg);
+        background-size: 50vw 100vw;
+        background-position: 10% center;
+        margin-left: 5px;
+        color: white;
+    }
+    
+    
+    /* Black text H1 */
+    header span:nth-child(2){
+        color: rgb(0, 0, 0);
+    }
+    
+    .maraMobile {
+        display: none;
+    }
+    
+    header p {
+        font-family: var(--text);
+        font-weight: light;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+
+        z-index: 1;
+    }
+    
+    
+    /* Buttons */
+    
+    button {
+        height: 40px;
+        width: 180px;
+    
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+        font: bold;
+        font-size: 20px;
+    }
+    
+    button:first-of-type {
+        background-color: #0D0221;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: -10px;
+    }
+    button:last-of-type {
+        background-color: transparent;
+        border: none;
+    }
+    }
+
+
+
 /* XXL DESKTOP Design */
 
 
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
     
     
     header {
