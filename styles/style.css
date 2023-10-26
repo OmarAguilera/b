@@ -240,7 +240,9 @@ button:last-of-type {
 
 
 
-
+.shapeContainer {
+    position: relative;
+}
 
 
 
@@ -269,6 +271,7 @@ button:last-of-type {
         height: 70vh;
         
         position: absolute;
+        left: -150px;
     }
     
     .maraDesktop {
@@ -507,9 +510,23 @@ button:last-of-type {
         font-size: 5vw;
         line-height: 6vw;
         top: 200px;
-        left: 80px;
+        left: 30px;
+    }
+
+    p {
+        align-self: flex-start;
+        
+        position: absolute;
+        bottom: 300px;
+        left: 30px;
     }
     
+
+    .CTAContainer {
+        position: absolute;
+        bottom: 200px;
+        left: 30px;
+    }
     
     /* Word's white backgrounds */
     
@@ -534,14 +551,19 @@ button:last-of-type {
     header p {
         font-family: var(--text);
         font-weight: light;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 20px;
         text-align: center;
         margin-top: 10px;
         margin-bottom: 40px;
 
         z-index: 1;
+
+        text-align: left;
+        line-height: 30px;
     }
+
+
     
     
     /* Buttons */
@@ -561,11 +583,12 @@ button:last-of-type {
         background-color: #0D0221;
         color: white;
         border: none;
-        border-radius: 5px;
-        margin-bottom: -10px;
+        border-radius: 30px;
+        margin-bottom: 10px;
     }
     button:last-of-type {
-        background-color: transparent;
-        border: none;
+        border-radius: 30px;
+        background-color: white;
+        border: 1px solid var(--10color);
     }
     }

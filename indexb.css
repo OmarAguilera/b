@@ -1,0 +1,35 @@
+:root {
+    --30color: #FD7028;
+    --60color: white;
+    --10color: #0D0221;
+
+    --title: 'Poppins', sans-serif;
+    --text: 'Inter', sans-serif;
+    --title-weight: 800;
+    --text-weight: 500;
+}
+
+
+.hero {
+    background-color: var(--30color);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.shapeContainer {
+    height: 100%;
+    width: 60%;
+    background-color: #0D0221;
+}
+
+.shapeContainer img {
+    height: 100%;
+    position: fixed;
+}
+
+h1 {
+    position: fixed;
+    z-index: 1;
+} */
+
